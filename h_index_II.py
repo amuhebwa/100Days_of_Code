@@ -1,5 +1,9 @@
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
+        """
+        I couldn't get the optimal solution by myself
+        credit: https://www.youtube.com/watch?v=lMZfeiiDRs4&ab_channel=TimothyHChang 
+        """
         if not citations:
             return 0
         l, r, n = 0, len(citations)-1, len(citations)
